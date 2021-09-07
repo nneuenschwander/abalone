@@ -14,7 +14,6 @@ from sklearn.tree import DecisionTreeClassifier
 from sklearn.ensemble import RandomForestClassifier, ExtraTreesClassifier, GradientBoostingClassifier
 from sklearn.linear_model import LogisticRegression
 from sklearn.neighbors import KNeighborsClassifier
-from xgboost import XGBClassifier
 
 from sklearn.metrics import classification_report
 from sklearn.metrics import roc_curve,RocCurveDisplay,auc,plot_confusion_matrix,confusion_matrix,f1_score,balanced_accuracy_score,make_scorer
